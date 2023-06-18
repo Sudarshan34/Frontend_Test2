@@ -1,0 +1,134 @@
+.navigation{
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 2; 
+    background-color: peru;
+}
+
+.links{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.links div
+{
+    font-size: 120%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    padding: 1%; 
+}
+
+.links div:hover
+{
+    border-top: 3px dark darkcyan;
+    color: grey;
+}
+
+
+#subject{
+    position: absolute;
+    top: 90%; 
+    left: 65%;
+    display: none;
+}
+ #about:hover+span{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 8em;
+    width: 15%;
+    padding:0% 2%;
+    border: 1px solid black;
+    background-color: white;
+}
+#subject:hover{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 8rem;
+    width: 15%;
+    padding:0% 2%;
+    border: 1px solid black;
+    background-color: white;
+    
+} 
+#subject p:hover{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    color: goldenrod;
+    background-color: black;
+    font-size: 120%;
+    width: 100%;
+}
+
+.sec{
+    top: 4em;
+    display: flex;
+    position: relative;
+
+}
+
+.desc{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.desc div
+{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.social i:hover
+{
+    color: gray;
+}
+
+
+.sec2{
+    position: relative;
+    top: 4rem;
+    background-color: gray;
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec2 button{
+    border: none;
+    padding: 1%;
+    font-size: 110%;
+    color: black;
+    margin: 2%;
+    border-radius: 5px;
+}
+.sec2 button:hover{
+    color: gray;
+}
+
+footer{
+    position: relative;
+    top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: cadetblue;
+}
+footer div{
+    text-align: center;
+    color: wheat;
+}
+
